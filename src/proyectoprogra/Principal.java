@@ -193,6 +193,7 @@ public class Principal {
                     seguro = sc.nextDouble();
                     Recepcionista recepcionista = new Recepcionista(bono, seguro, numHoras, costoHora, nombre, apellido, identificacion, edad);
                     empleado.add(recepcionista);
+
                     break;
             }
             System.out.println("Ingresar otro empleado: (S/N)");
@@ -202,10 +203,13 @@ public class Principal {
     }
 
     public static void mostrar() {
+        System.out.println("*********************************REGISTRO DE EMPLEADOS*********************************\n\n");
         for (Empleado empleados : empleado) {
+            System.out.println("*********************************************EMPLEADO****************************************");
             System.out.println(empleados.toString());
             System.out.println("Sueldo a Pagar:\t$" + empleados.calcularSueldo());
             System.out.println("");
+            System.out.println("*********************************************************************************************");
         }
     }
 }
