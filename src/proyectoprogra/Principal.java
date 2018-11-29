@@ -209,7 +209,7 @@ public class Principal {
             System.out.println(empleados.toString());
             System.out.println("Sueldo a Pagar:\t$" + empleados.calcularSueldo());
             System.out.println("");
-            System.out.println("*********************************************************************************************");
+
         }
     }
 }

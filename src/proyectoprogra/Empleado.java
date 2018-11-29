@@ -11,10 +11,10 @@ package proyectoprogra;
  */
 public abstract class Empleado {
 
-    private String nombre;
-    private String apellido;
-    private String identificacion;
-    private int edad;
+    protected String nombre;
+    protected String apellido;
+    protected String identificacion;
+    protected int edad;
 
     public Empleado(String nombre, String apellido, String identificacion, int edad) {
         this.nombre = nombre;
@@ -59,5 +59,6 @@ public abstract class Empleado {
     public String toString() {
         return "Nombre:" + nombre + "\nApellido:" + apellido + "\nIdentificacion:" + identificacion + "\nEdad:" + edad;
     }
-public abstract double calcularSueldo(); 
+
+    public abstract double calcularSueldo();
 }
