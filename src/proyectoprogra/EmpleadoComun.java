@@ -38,7 +38,7 @@ public abstract class EmpleadoComun extends Empleado {
 
     @Override
     public String toString() {
-        return super.toString() + "\nHoras trabajadas:" + numHoras + "\nCosto Hora=" + costoHora;
+        return super.toString() + "\nHoras trabajadas:" + numHoras + "\nCosto Hora:" + costoHora;
     }
 
     public abstract double calcularSueldo();

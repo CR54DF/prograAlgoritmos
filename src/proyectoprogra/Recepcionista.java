@@ -47,7 +47,7 @@ public class Recepcionista extends EmpleadoComun {
 
     @Override
     public String toString() {
-        return super.toString() + "\nBono:" + bono + "\nSeguro=" + seguro;
+        return "***********************************RECEPCIONISTA***************************************\n\n" +super.toString() + "\nBono:" + bono + "\nSeguro=" + seguro;
     }
 
 }

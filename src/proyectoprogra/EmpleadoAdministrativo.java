@@ -38,7 +38,7 @@ public abstract class EmpleadoAdministrativo extends Empleado {
 
     @Override
     public String toString() {
-        return super.toString() + "\nHoras Trabajadas:" + numHoras + ", costoHora=" + costoHora;
+        return super.toString() + "\nHoras Trabajadas:" + numHoras + "\nCosto Hora:" + costoHora;
     }
 
     public abstract double calcularSueldo();

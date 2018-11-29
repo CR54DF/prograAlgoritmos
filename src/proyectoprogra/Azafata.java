@@ -60,7 +60,7 @@ public class Azafata extends EmpleadoComun {
 
     @Override
     public String toString() {
-        return super.toString() + "\nBono:" + bono + "\nSeguro:" + seguro + "\nTipo:" + tipo;
+        return "*********************************ZAFATA*************************************\n\n" + super.toString() + "\nBono:" + bono + "\nSeguro:" + seguro + "\nTipo:" + tipo;
     }
 
 }

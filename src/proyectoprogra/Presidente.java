@@ -44,7 +44,8 @@ public class Presidente extends EmpleadoAdministrativo {
 
     @Override
     public String toString() {
-        return super.toString() + "\nBono:" + bono + "\nSeguro=" + seguro;
+        return "***************PRESIDENTE*****************\n\n" 
+                + super.toString() + "\nBono:" + bono + "\nSeguro:" + seguro;
     }
 
 }
