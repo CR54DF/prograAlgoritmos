@@ -213,3 +213,4 @@ public class Principal {
         }
     }
 }
+// generar un metodo que almacene toda la informacion en un solo metodo
